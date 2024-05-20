@@ -1,0 +1,168 @@
+html
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+h1,
+h2,
+h3 {
+    text-align: center;
+    color: #00ff19;
+    font-weight: 400;
+}
+h3{
+    font-size: 45px;
+}
+
+section{
+       background-color: black;
+       padding: 40px 50px;
+}
+h1{
+
+    position: relative;
+    top: 30%;
+    color: white;
+}
+
+
+header{
+    background-color: transparent;
+    padding: 50px 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    padding: 10px 10px;
+    color: white;
+    text-decoration: none;
+    transition: all ease 0.25s;
+
+}
+nav a:hover{
+    
+    background-color: rgba(255, 255, 255, 0.280);
+    transition: all ease 0.25s;
+}
+.hero { 
+
+    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    position: relative;
+    height: 660px;  
+      
+}
+.hero_bcc {
+    width: 100%;
+    z-index: -1;
+    background-image: url(https://rnr.ua/imagecache/base/posts/image/14169359824219971.jpg);
+    filter:brightness(0.4);
+    height: 100%;
+    position: absolute;
+}
+h1,
+h2{
+    font-size: 64px;
+}
+.about img{
+    height: 400px;
+}
+.about{
+   display: flex;
+ gap: 50px;   justify-content: center;
+ align-items: center;
+}
+
+.about div{
+ 
+   
+    width: 50%;
+ 
+}
+.catalog div{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    text-align: center;
+}
+.catalog article{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: all ease 0.25s;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.catalog article:hover{
+    background-color: white;
+    color: black;
+    transition: all ease 0.25s;
+
+}
+.catalog article img{
+    width: 100%;
+    height: 100%;
+}
+
+.people h2{
+    margin-bottom: 50px;
+}
+
+.people div{
+    width: 70%;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.adress{
+    text-align: center;
+}
+.people img{  
+    border-radius:50%;
+    width: 180px;
+}
+.adress h2{
+    margin-bottom: 50px;
+}
+.adress h3{
+    margin-bottom: 25px;
+}
+.adress p {
+
+    margin-bottom: 50px;
+}
+footer{
+   
+    background-color: #b22020;
+
+    display: flex;
+    justify-content: space-between;
+padding: 20px 40px;
+    align-items: center;
+    color: black;
+}
+footer a{
+    display: inline-block;
+    width: 60px;
+}
+footer div p {
+  text-align: center;
+}
+footer a img {
+    width: 40px;transition: 0.25s;
+}
+footer a img:hover{
+ transform: scale(1.1);
+ transition: 0.25s;
+}
+
